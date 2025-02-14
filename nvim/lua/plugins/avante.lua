@@ -10,7 +10,8 @@ return {
       auto_suggestions_provider = "gemini", -- Since auto-suggestions are a high-frequency operation and therefore expensive, it is recommended to specify an inexpensive provider or even a free provider: copilot
       gemini = {
         endpoint = "https://generativelanguage.googleapis.com/v1beta/models",
-        model = "gemini-1.5-flash-latest",
+        -- model = "gemini-1.5-flash-latest",
+        model = "gemini-2.0-flash-lite-preview-02-05",
         timeout = 30000, -- Timeout in milliseconds
         temperature = 0,
         max_tokens = 4096,

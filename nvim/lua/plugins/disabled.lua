@@ -5,4 +5,8 @@ return {
     "yetone/avante.nvim",
     enabled = enable, -- Disable this plugin
   },
+  {
+    "Pocco81/auto-save.nvim", -- auto save
+    enabled = false, -- Disable this plugin
+  },
 }

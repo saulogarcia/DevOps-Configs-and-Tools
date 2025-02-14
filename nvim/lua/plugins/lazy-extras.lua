@@ -5,4 +5,5 @@ return {
   { import = "lazyvim.plugins.extras.lang.ruby" },
   { import = "lazyvim.plugins.extras.editor.harpoon2" },
   { import = "lazyvim.plugins.extras.coding.mini-surround" },
+  { import = "lazyvim.plugins.extras.lang.terraform" },
 }
